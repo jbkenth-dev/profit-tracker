@@ -175,8 +175,8 @@ $pageTitle = 'Fixed Expenses';
             </div>
             <div class="col-md-3">
                 <div class="d-flex gap-2">
-                    <button type="submit" class="btn btn-primary"><i class="bi bi-funnel me-1"></i>Filter</button>
-                    <a href="fixed-expenses.php" class="btn btn-outline-secondary">Reset</a>
+                    <button type="submit" class="btn btn-primary flex-fill"><i class="bi bi-funnel me-1"></i>Filter</button>
+                    <a href="fixed-expenses.php" class="btn btn-outline-secondary flex-fill">Reset</a>
                 </div>
             </div>
         </form>

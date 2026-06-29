@@ -182,7 +182,10 @@ $pageTitle = 'Expenses';
                 </select>
             </div>
             <div class="col-md-2">
-                <button type="submit" class="btn btn-primary w-100"><i class="bi bi-funnel me-1"></i>Filter</button>
+                <div class="d-flex gap-2">
+                    <button type="submit" class="btn btn-primary flex-fill btn-sm"><i class="bi bi-funnel me-1"></i>Filter</button>
+                    <a href="expenses.php" class="btn btn-outline-secondary flex-fill btn-sm">Reset</a>
+                </div>
             </div>
         </form>
 

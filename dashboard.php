@@ -189,8 +189,8 @@ $pageTitle = 'Dashboard';
     <span class="badge bg-primary-soft text-primary rounded-pill"><?= month_name($currentMonth) ?> <?= $currentYear ?></span>
 </div>
 
-<div class="row g-3 mb-4">
-    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 d-flex">
+<div class="row g-3 mb-4 stat-card-grid">
+    <div class="col-xl-4 col-lg-4 col-md-6 col-6 d-flex">
         <div class="stat-card stat-card-primary flex-fill">
             <div class="stat-icon bg-primary-soft">
                 <i class="bi bi-box-seam text-primary"></i>
@@ -202,7 +202,7 @@ $pageTitle = 'Dashboard';
             </div>
         </div>
     </div>
-    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 d-flex">
+    <div class="col-xl-4 col-lg-4 col-md-6 col-6 d-flex">
         <div class="stat-card stat-card-success flex-fill">
             <div class="stat-icon bg-success-soft">
                 <i class="bi bi-cash-stack text-success"></i>
@@ -218,7 +218,7 @@ $pageTitle = 'Dashboard';
             </div>
         </div>
     </div>
-    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 d-flex">
+    <div class="col-xl-4 col-lg-4 col-md-6 col-6 d-flex">
         <div class="stat-card stat-card-danger flex-fill">
             <div class="stat-icon bg-danger-soft">
                 <i class="bi bi-cart-x text-danger"></i>
@@ -230,7 +230,7 @@ $pageTitle = 'Dashboard';
             </div>
         </div>
     </div>
-    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 d-flex">
+    <div class="col-xl-4 col-lg-4 col-md-6 col-6 d-flex">
         <div class="stat-card stat-card-warning flex-fill">
             <div class="stat-icon bg-warning-soft">
                 <i class="bi bi-receipt text-warning"></i>
@@ -242,7 +242,7 @@ $pageTitle = 'Dashboard';
             </div>
         </div>
     </div>
-    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 d-flex">
+    <div class="col-xl-4 col-lg-4 col-md-6 col-6 d-flex">
         <div class="stat-card stat-card-purple flex-fill">
             <div class="stat-icon bg-purple-soft">
                 <i class="bi bi-cpu" style="color:var(--purple)"></i>
@@ -254,7 +254,7 @@ $pageTitle = 'Dashboard';
             </div>
         </div>
     </div>
-    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 d-flex">
+    <div class="col-xl-4 col-lg-4 col-md-6 col-6 d-flex">
         <div class="stat-card flex-fill <?= $netProfit >= 0 ? 'stat-card-success' : 'stat-card-danger' ?>">
             <div class="stat-icon <?= $netProfit >= 0 ? 'bg-success-soft' : 'bg-danger-soft' ?>">
                 <i class="bi bi-graph-up-arrow <?= $netProfit >= 0 ? 'text-success' : 'text-danger' ?>"></i>

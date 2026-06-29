@@ -1013,7 +1013,7 @@ a:hover { color: var(--primary-dark); }
     .main-content { padding: 12px; }
     .page-title { font-size: 18px; }
     .stat-card { flex-direction: row; text-align: left; gap: 12px; padding: 12px 14px; }
-    .stat-value { font-size: 15px; }
+    .stat-value { font-size: 16px; }
     .stat-icon { width: 36px; height: 36px; border-radius: 10px; }
     .stat-icon i { font-size: 16px; }
     .stat-label { font-size: 11px; letter-spacing: 0.3px; }
@@ -1022,13 +1022,16 @@ a:hover { color: var(--primary-dark); }
     .card-dashboard .card-body { padding: 10px 14px; }
     .card-dashboard .card-title { font-size: 14px; }
     .card-dashboard .card-title i { font-size: 15px; }
-    .table thead th, .table tbody td { padding: 6px 8px; font-size: 12px; }
-    .table thead th { font-size: 11px; }
-    .btn { font-size: 14px !important; padding: 8px 14px; border-radius: 8px; }
+    .table thead th, .table tbody td { padding: 8px 10px; font-size: 13px; }
+    .table thead th { font-size: 11px; letter-spacing: 0.3px; }
+    .btn { font-size: 14px !important; padding: 10px 16px; border-radius: 8px; }
+    .btn-lg { font-size: 15px !important; padding: 12px 20px; }
+    .btn-sm { font-size: 13px; padding: 6px 10px; }
     .form-control, .form-select { font-size: 16px !important; padding: 8px 12px; }
-    .modal-body { padding: 12px 14px 16px; }
-    .modal-header { padding: 14px 14px 0; }
-    .modal-title { font-size: 16px; }
+    .form-control-lg, .form-select-lg { font-size: 16px !important; padding: 10px 14px; }
+    .modal-body { padding: 14px 16px 18px; }
+    .modal-header { padding: 16px 16px 0; }
+    .modal-title { font-size: 17px; }
     .dash-welcome { padding: 14px; margin-bottom: 16px; border-radius: 14px; }
     .dash-welcome h5 { font-size: 16px; }
     .dash-welcome p { font-size: 13px; }
@@ -1039,7 +1042,7 @@ a:hover { color: var(--primary-dark); }
     .breadcrumb { font-size: 12px; }
     .badge { font-size: 11px; padding: 4px 10px; }
     .summary-label { font-size: 12px; }
-    .summary-value { font-size: 14px; }
+    .summary-value { font-size: 15px; }
     .section-title { font-size: 12px; letter-spacing: 0.5px; }
     .sidebar-nav .nav-link { font-size: 14px; padding: 14px 16px; }
     .brand-name { font-size: 15px; }
@@ -1056,6 +1059,61 @@ a:hover { color: var(--primary-dark); }
     .input-group-text { font-size: 14px; }
     .pagination .page-link { font-size: 12px; padding: 5px 10px; }
     .stat-card { min-height: 80px; }
+    .card-chart .card-body { min-height: 200px; }
+    .card-chart canvas { max-height: 180px; }
+    .dash-welcome .dash-date { font-size: 12px; }
+    .stat-card-compact .stat-value { font-size: 15px; }
+    .stat-card-compact .stat-icon { width: 34px; height: 34px; }
+    .stat-card-compact .stat-icon i { font-size: 15px; }
+    .top-navbar { padding: 0 10px; }
+    .page-title-icon { width: 32px; height: 32px; font-size: 16px; }
+    .navbar-brand { font-size: 16px !important; }
+    .empty-state-icon { font-size: 2rem !important; }
+    .d-flex.gap-2.flex-wrap { gap: 6px !important; }
+    .filter-btn-group { width: 100%; }
+    .filter-btn-group .btn { flex: 1; }
+    .btn.w-100-mobile { width: 100%; }
+}
+
+/* ─── Responsive: Very Small Phones (≤400px) ──────────────── */
+@media (max-width: 399.98px) {
+    .main-content { padding: 10px; }
+    .page-title { font-size: 16px; }
+    .stat-card { gap: 10px; padding: 10px 12px; }
+    .stat-value { font-size: 15px; }
+    .stat-icon { width: 32px; height: 32px; border-radius: 8px; }
+    .stat-icon i { font-size: 14px; }
+    .stat-label { font-size: 10px; }
+    .card-dashboard .card-header { padding: 8px 12px; }
+    .card-dashboard .card-body { padding: 8px 12px; }
+    .card-dashboard .card-title { font-size: 13px; }
+    .table thead th, .table tbody td { padding: 6px 6px; font-size: 12px; }
+    .table thead th { font-size: 10px; }
+    .dash-welcome { padding: 12px; border-radius: 12px; }
+    .dash-welcome h5 { font-size: 15px; }
+    .modal-dialog { margin: 4px; }
+    .modal-body { padding: 12px 12px 16px; }
+    .modal-header { padding: 12px 12px 0; }
+    .modal-title { font-size: 16px; }
+    .btn { font-size: 14px !important; padding: 8px 12px; }
+    .btn-lg { font-size: 14px !important; padding: 10px 16px; }
+    .form-control, .form-select { font-size: 16px !important; padding: 8px 10px; }
+    .badge { font-size: 10px; padding: 3px 8px; }
+    .breadcrumb { font-size: 11px; }
+    .summary-value { font-size: 14px; }
+    .section-title { font-size: 11px; }
+    .chart-header-metric .chm-value { font-size: 13px; }
+    .card-chart .card-body { min-height: 170px; }
+    .card-chart canvas { max-height: 150px; }
+    .top-navbar { padding: 0 8px; }
+    .pagination .page-link { font-size: 11px; padding: 4px 8px; }
+    .sidebar-nav .nav-link { font-size: 13px; padding: 12px 14px; }
+    .stat-card { min-height: 70px; }
+    .input-group-text { font-size: 13px; }
+    .chart-metric .metric-value { font-size: 14px; }
+    .chart-metric { padding: 4px 10px; }
+    .stat-card-grid > [class*="col-"] { width: 100% !important; flex: 0 0 100% !important; max-width: 100% !important; }
+    .stat-card-grid .stat-card { flex-direction: row; }
 }
 
 /* ─── Transitions & Animations ──────────────────────────── */
